@@ -1,0 +1,12 @@
+#countries-container{
+    color: darkolivegreen;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 15px;
+}
+
+.country{
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    padding: 10px;
+}

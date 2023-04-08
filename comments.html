@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Comments</title>
+    <style>
+        h1{
+            color: coral;
+        }
+        body{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        li{
+            background-color: lightgoldenrodyellow;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 15px;
+        }
+        h3{
+            color: brown;
+            background-color: burlywood;
+            width: 50%;
+        }
+        h5{
+            color: blue;
+            background-color: aqua;
+            width: 10%;
+            text-align: center;
+            border-radius: 15px;
+        }
+        #button{
+            margin-left: 20px;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>This is Comment section</h1>
+    </header>
+    <main>
+        <section>
+            <div id="comment-container">
+                <ul id="comment-ul">
+
+                </ul>
+            </div>
+        </section>
+        <button id="button" onclick="loadComments()">Click Comments</button>
+    </main>
+
+    <script src="js/comments.js"></script>
+ </body>
+ </html>

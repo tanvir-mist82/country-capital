@@ -10,3 +10,12 @@
     border-radius: 5px;
     padding: 10px;
 }
+
+
+#country-details{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border: 4px dotted darkgray;
+    padding: 20px;
+}
+
